@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+    .container{
+        background-color: #fff;
+        width: 650px;
+        height: 415px;
+        border-radius:5px ;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+        position: relative;
+    }
+    .form-box{
+        position: absolute;
+        top: -10%;
+        left: 5%;
+        background-color: #00c9ff;
+        width: 320px;
+        height: 500px;
+        border-radius: 5px;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        /* 动画 */
+        transition: 0.5s ease-in-out;
+
+    }
+    .register-box,.login-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .hidden{
+        display: none;
+        transition: 0.5s;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        color: #92fe9d;
+        letter-spacing: 5px;
+    }
+    input{
+        background-color: transparent;
+        width: 70%;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        padding: 10px 0;
+        text-indent: 10px;
+        margin: 8px 0;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    input::placeholder{
+        color: #fff;
+    }
+    input:focus{
+        color: black;
+        outline: none;
+        border-bottom: 1px solid #92fe9d;
+        transition: 0.5s;
+    }
+    input:focus::placeholder{
+        opacity: 0;
+    }
+    .form-box button{
+        width: 70%;
+        margin-top: 35px;
+        background-color: #f6f6f6;
+        outline: none;
+        border-radius: 8px;
+        padding: 13px;
+        color: #00c9ff;
+        letter-spacing: 2px;
+        border: none;
+        cursor: pointer;
+    }
+    .con-box{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .con-box.left{
+        left: -2%;
+    }
+    .con-box.right{
+        right: -2%;
+    }
+    .con-box h2{
+        color: #00c9ff;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .con-box span{
+        color: #92fe9d;
+    }
+    .con-box img{
+        width: 200px;
+        height: 200px;
+        opacity: 0.9;
+        margin: 40px 0;
+    }
+    .con-box button{
+        margin-top: 3%;
+        background-color: #fff;
+        color: #00c9ff;
+        border: 1px solid #d3b7d8;
+        padding: 6px 10px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        outline: none;
+        cursor: pointer;
+    }
+    .con-box button:hover{
+        background-color: pink;
+        color: #fff;
+    }
+</style>
+<body>
+    <img src="./image/" alt="">
+    <div class="container">
+        <div class="form-box">
+            <!-- 注册 -->
+            <div class="register-box hidden">
+                <h1>register</h1>
+                <input type="text" placeholder="用户名">
+                <input type="email" placeholder="邮箱">
+                <input type="password" placeholder="密码">
+                <input type="password" placeholder="确认密码">
+                <button>注册</button>
+            </div>
+            <!-- 登录 -->
+            <div class="login-box">
+                <h1>login</h1>
+                <input type="text" id="login-username" placeholder="用户名">
+                <input type="password" id="login-password" placeholder="密码">
+                <button id="login-btn">登录</button>
+            </div>
+        </div>
+        <div class="con-box left">
+                <h2>感谢访问<span>我的网站</span></h2>
+                <img src="./image/person1.png" alt="">
+                <p>已有账号？</p>
+                <button id="login">去登陆</button>
+        </div>
+        <div class="con-box right">
+            <h2>欢迎来到<span>我的网站</span></h2>
+            <img src="./image/person2.png" alt="">
+            <p>没有账号？</p>
+            <button id="register" >去注册</button>
+        </div>
+        <audio src="./Famishin,KOTOKO - 恋ひ恋ふ縁.mp3" autoplay loop></audio>
+
+    </div>
+    <script>
+    const loginBtn = document.getElementById('login');
+    const registerBtn = document.getElementById('register');
+    const loginBox = document.querySelector('.login-box');
+    const registerBox = document.querySelector('.register-box');
+    const formBox = document.querySelector('.form-box');
+
+    registerBtn.addEventListener('click', () => {
+        loginBox.classList.add('hidden');
+        registerBox.classList.remove('hidden');
+        formBox.style.left = '50%';
+    });
+
+    loginBtn.addEventListener('click', () => {
+        registerBox.classList.add('hidden');
+        loginBox.classList.remove('hidden');
+        formBox.style.left = '5%';
+    });
+    // 替换原有登录按钮的 onclick
+    document.getElementById('login-btn').onclick = function() {
+        const username = document.getElementById('login-username').value;
+        const password = document.getElementById('login-password').value;
+        if(username && password){
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+            window.location.href = 'class.html';
+        }else{
+            alert('请输入用户名和密码');
+        }
+    }
+</script>
+</body>
+</html>

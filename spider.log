@@ -1,0 +1,409 @@
+2025-06-08 22:58:39,169 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:00:21,287 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:01:57,215 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:03:58,631 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:07:17,165 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:16:47,444 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:25:53,461 - INFO - 程序启动
+2025-06-08 23:25:53,461 - INFO - 当前工作目录: D:\code\newproject
+2025-06-08 23:25:53,461 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-08 23:25:53,471 - INFO - ✅ 创建目录: D:\code\newproject\data
+2025-06-08 23:25:53,471 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-08 23:25:53,472 - INFO - ✅ 写入权限测试通过
+2025-06-08 23:25:53,473 - INFO - 以直接模式启动爬虫
+2025-06-08 23:26:04,545 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-08 23:26:04,545 - INFO - ====== WebDriver manager ======
+2025-06-08 23:26:05,253 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:26:06,529 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:26:06,911 - INFO - Driver [C:\Users\Lenovo\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-08 23:26:36,832 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-08 23:26:38,215 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-08 23:26:39,572 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-08 23:26:40,963 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-08 23:26:42,369 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-08 23:26:43,778 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-08 23:26:45,152 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-08 23:26:46,543 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-08 23:26:47,959 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-08 23:26:49,327 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-08 23:26:50,828 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-08 23:26:52,294 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-08 23:26:53,750 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-08 23:26:55,250 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-08 23:26:56,639 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-08 23:26:58,032 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-08 23:26:59,402 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-08 23:27:00,760 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-08 23:27:02,137 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-08 23:27:03,519 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json
+2025-06-08 23:30:03,285 - INFO - 程序启动
+2025-06-08 23:30:03,295 - INFO - 当前工作目录: D:\code\newproject
+2025-06-08 23:30:03,295 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-08 23:30:03,296 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-08 23:30:03,298 - INFO - ✅ 写入权限测试通过
+2025-06-08 23:30:03,298 - INFO - 以Web服务模式启动
+2025-06-08 23:30:03,309 - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2025-06-08 23:32:49,953 - INFO - 程序启动
+2025-06-08 23:32:49,953 - INFO - 当前工作目录: D:\code\newproject
+2025-06-08 23:32:49,953 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-08 23:32:49,954 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-08 23:32:49,957 - INFO - ✅ 写入权限测试通过
+2025-06-08 23:32:49,958 - INFO - 以直接模式启动爬虫
+2025-06-08 23:32:49,959 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-08 23:32:49,959 - INFO - ====== WebDriver manager ======
+2025-06-08 23:32:51,174 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:32:51,532 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:32:51,949 - INFO - Driver [C:\Users\Lenovo\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-08 23:33:08,588 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-08 23:33:10,026 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-08 23:33:11,437 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-08 23:33:12,839 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-08 23:33:14,202 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-08 23:33:15,567 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-08 23:33:16,940 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-08 23:33:18,308 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-08 23:33:19,667 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-08 23:33:21,094 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-08 23:33:22,467 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-08 23:33:23,828 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-08 23:33:25,232 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-08 23:33:26,585 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-08 23:33:28,072 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-08 23:33:29,452 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-08 23:33:30,834 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-08 23:33:32,155 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-08 23:33:33,523 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-08 23:33:34,884 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json
+2025-06-08 23:38:56,600 - INFO - 程序启动
+2025-06-08 23:38:56,600 - INFO - 当前工作目录: D:\code\newproject
+2025-06-08 23:38:56,600 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-08 23:38:56,600 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-08 23:38:56,601 - INFO - ✅ 写入权限测试通过
+2025-06-08 23:38:56,602 - INFO - 以直接模式启动爬虫
+2025-06-08 23:38:56,602 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-08 23:38:56,602 - INFO - ====== WebDriver manager ======
+2025-06-08 23:38:57,536 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:38:58,950 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-08 23:38:59,255 - INFO - Driver [C:\Users\Lenovo\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-08 23:39:14,796 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-08 23:39:16,624 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-08 23:39:18,899 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-08 23:39:21,230 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-08 23:39:24,422 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-08 23:39:26,594 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-08 23:39:29,014 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-08 23:39:30,896 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-08 23:39:33,208 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-08 23:39:35,160 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-08 23:39:37,340 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-08 23:39:39,334 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-08 23:39:41,303 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-08 23:39:43,213 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-08 23:39:45,154 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-08 23:39:47,108 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-08 23:39:48,852 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-08 23:39:50,762 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-08 23:39:52,814 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-08 23:39:54,688 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json
+2025-06-09 21:36:36,986 - INFO - 程序启动
+2025-06-09 21:36:36,986 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:36:36,987 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:36:36,988 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:36:36,990 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:36:36,991 - INFO - 以直接模式启动爬虫
+2025-06-09 21:36:36,991 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:36:36,991 - INFO - ====== WebDriver manager ======
+2025-06-09 21:36:37,971 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:36:38,044 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:36:38,054 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:37:17,279 - INFO - 程序启动
+2025-06-09 21:37:17,279 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:37:17,279 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:37:17,281 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:37:17,283 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:37:17,285 - INFO - 以直接模式启动爬虫
+2025-06-09 21:37:17,285 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:37:17,285 - INFO - ====== WebDriver manager ======
+2025-06-09 21:37:18,183 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:37:18,238 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:37:18,238 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:38:11,328 - INFO - 程序启动
+2025-06-09 21:38:11,328 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:38:11,328 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:38:11,330 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:38:11,333 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:38:11,334 - INFO - 以直接模式启动爬虫
+2025-06-09 21:38:11,336 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:38:11,336 - INFO - ====== WebDriver manager ======
+2025-06-09 21:38:12,100 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:38:12,159 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:38:12,159 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:39:54,268 - INFO - 程序启动
+2025-06-09 21:39:54,268 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:39:54,268 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:39:54,270 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:39:54,272 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:39:54,272 - INFO - 以直接模式启动爬虫
+2025-06-09 21:39:54,272 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:39:54,273 - INFO - ====== WebDriver manager ======
+2025-06-09 21:39:55,105 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:39:55,164 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:39:55,164 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:42:07,950 - INFO - 程序启动
+2025-06-09 21:42:07,950 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:42:07,950 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:42:07,951 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:42:07,953 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:42:07,954 - INFO - 以直接模式启动爬虫
+2025-06-09 21:42:07,954 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:42:07,954 - INFO - ====== WebDriver manager ======
+2025-06-09 21:42:08,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:42:08,970 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:42:08,970 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:43:33,500 - INFO - 程序启动
+2025-06-09 21:43:33,500 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:43:33,501 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:43:33,502 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:43:33,504 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:43:33,504 - INFO - 以直接模式启动爬虫
+2025-06-09 21:43:33,505 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:43:33,505 - INFO - ====== WebDriver manager ======
+2025-06-09 21:43:34,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:43:34,396 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:43:34,396 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:45:37,900 - INFO - 程序启动
+2025-06-09 21:45:37,900 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:45:37,900 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:45:37,902 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:45:37,903 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:45:37,904 - INFO - 以直接模式启动爬虫
+2025-06-09 21:45:37,904 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:45:37,904 - INFO - ====== WebDriver manager ======
+2025-06-09 21:45:38,775 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:45:38,820 - ERROR - Driver initialization failed: Could not reach host. Are you offline?
+2025-06-09 21:45:38,820 - ERROR - Spider failed: Could not reach host. Are you offline?
+2025-06-09 21:47:12,816 - INFO - 程序启动
+2025-06-09 21:47:12,816 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 21:47:12,816 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 21:47:12,818 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 21:47:12,822 - INFO - ✅ 写入权限测试通过
+2025-06-09 21:47:12,823 - INFO - 以直接模式启动爬虫
+2025-06-09 21:47:12,824 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 21:47:38,547 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-09 21:47:40,053 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-09 21:47:41,643 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-09 21:47:43,133 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-09 21:47:44,704 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-09 21:47:46,284 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-09 21:47:47,767 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-09 21:47:49,286 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-09 21:47:50,929 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-09 21:47:52,534 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-09 21:47:54,163 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-09 21:47:55,713 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-09 21:47:57,222 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-09 21:47:58,750 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-09 21:48:00,408 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-09 21:48:01,903 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-09 21:48:04,851 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-09 21:48:06,359 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-09 21:48:07,919 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-09 21:48:09,533 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json
+2025-06-09 22:07:07,281 - INFO - 程序启动
+2025-06-09 22:07:07,282 - INFO - 当前工作目录: D:\code\newproject
+2025-06-09 22:07:07,282 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-09 22:07:07,283 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-09 22:07:07,287 - INFO - ✅ 写入权限测试通过
+2025-06-09 22:07:07,288 - INFO - 以直接模式启动爬虫
+2025-06-09 22:07:07,288 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-09 22:07:34,743 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-09 22:07:36,491 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-09 22:07:38,239 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-09 22:07:39,772 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-09 22:07:41,556 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-09 22:07:43,021 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-09 22:07:44,725 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-09 22:07:46,878 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-09 22:07:48,805 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-09 22:07:51,054 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-09 22:07:52,974 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-09 22:07:54,841 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-09 22:07:56,657 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-09 22:07:58,481 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-09 22:08:00,306 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-09 22:08:02,489 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-09 22:08:04,734 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-09 22:08:06,594 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-09 22:08:08,488 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-09 22:08:10,443 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json
+2025-06-18 17:16:40,357 - INFO - 程序启动
+2025-06-18 17:16:40,359 - INFO - 当前工作目录: D:\code\newproject
+2025-06-18 17:16:40,360 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-18 17:16:40,361 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-18 17:16:40,362 - INFO - ✅ 写入权限测试通过
+2025-06-18 17:16:40,362 - INFO - 以直接模式启动爬虫
+2025-06-18 17:16:40,363 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-18 17:17:44,371 - WARNING - Login attempt 1 failed
+2025-06-18 17:18:17,600 - WARNING - Login attempt 2 failed
+2025-06-18 17:18:51,143 - WARNING - Login attempt 3 failed
+2025-06-18 17:18:51,145 - ERROR - Spider failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD308162+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD291E19+595513]
+	(No symbol) [0x00007FF6BD0AE6CF]
+	(No symbol) [0x00007FF6BD0F2960]
+	(No symbol) [0x00007FF6BD0F2A1F]
+	(No symbol) [0x00007FF6BD12D627]
+	(No symbol) [0x00007FF6BD11203F]
+	(No symbol) [0x00007FF6BD0E8147]
+	(No symbol) [0x00007FF6BD12B1EE]
+	(No symbol) [0x00007FF6BD111C63]
+	(No symbol) [0x00007FF6BD0E766E]
+	(No symbol) [0x00007FF6BD0E683C]
+	(No symbol) [0x00007FF6BD0E7221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C9704+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD20D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD200E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C8695+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD29C991+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296D14+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296E4B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD28CFD0+575472]
+	BaseThreadInitThunk [0x00007FF923AD259D+29]
+	RtlUserThreadStart [0x00007FF924ECAF38+40]
+
+2025-06-18 17:51:29,654 - INFO - 程序启动
+2025-06-18 17:51:29,655 - INFO - 当前工作目录: D:\code\newproject
+2025-06-18 17:51:29,655 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-18 17:51:29,655 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-18 17:51:29,657 - INFO - ✅ 写入权限测试通过
+2025-06-18 17:51:29,659 - INFO - 以直接模式启动爬虫
+2025-06-18 17:51:29,659 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-18 17:52:12,629 - WARNING - Login attempt 1 failed
+2025-06-18 17:52:45,509 - WARNING - Login attempt 2 failed
+2025-06-18 17:53:19,165 - WARNING - Login attempt 3 failed
+2025-06-18 17:53:19,165 - ERROR - Spider failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD308162+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD291E19+595513]
+	(No symbol) [0x00007FF6BD0AE6CF]
+	(No symbol) [0x00007FF6BD0F2960]
+	(No symbol) [0x00007FF6BD0F2A1F]
+	(No symbol) [0x00007FF6BD12D627]
+	(No symbol) [0x00007FF6BD11203F]
+	(No symbol) [0x00007FF6BD0E8147]
+	(No symbol) [0x00007FF6BD12B1EE]
+	(No symbol) [0x00007FF6BD111C63]
+	(No symbol) [0x00007FF6BD0E766E]
+	(No symbol) [0x00007FF6BD0E683C]
+	(No symbol) [0x00007FF6BD0E7221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C9704+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD20D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD200E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C8695+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD29C991+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296D14+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296E4B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD28CFD0+575472]
+	BaseThreadInitThunk [0x00007FF923AD259D+29]
+	RtlUserThreadStart [0x00007FF924ECAF38+40]
+
+2025-06-18 20:15:13,010 - INFO - 程序启动
+2025-06-18 20:15:13,010 - INFO - 当前工作目录: D:\code\newproject
+2025-06-18 20:15:13,010 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-18 20:15:13,012 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-18 20:15:13,014 - INFO - ✅ 写入权限测试通过
+2025-06-18 20:15:13,016 - INFO - 以直接模式启动爬虫
+2025-06-18 20:15:13,016 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-18 20:16:09,576 - WARNING - Login attempt 1 failed
+2025-06-18 20:16:42,584 - WARNING - Login attempt 2 failed
+2025-06-18 20:17:16,887 - WARNING - Login attempt 3 failed
+2025-06-18 20:17:16,890 - ERROR - Spider failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD308162+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD291E19+595513]
+	(No symbol) [0x00007FF6BD0AE6CF]
+	(No symbol) [0x00007FF6BD0F2960]
+	(No symbol) [0x00007FF6BD0F2A1F]
+	(No symbol) [0x00007FF6BD12D627]
+	(No symbol) [0x00007FF6BD11203F]
+	(No symbol) [0x00007FF6BD0E8147]
+	(No symbol) [0x00007FF6BD12B1EE]
+	(No symbol) [0x00007FF6BD111C63]
+	(No symbol) [0x00007FF6BD0E766E]
+	(No symbol) [0x00007FF6BD0E683C]
+	(No symbol) [0x00007FF6BD0E7221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C9704+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD20D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD200E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C8695+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD29C991+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296D14+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296E4B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD28CFD0+575472]
+	BaseThreadInitThunk [0x00007FF923AD259D+29]
+	RtlUserThreadStart [0x00007FF924ECAF38+40]
+
+2025-06-18 20:17:41,225 - INFO - 程序启动
+2025-06-18 20:17:41,225 - INFO - 当前工作目录: D:\code\newproject
+2025-06-18 20:17:41,225 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-18 20:17:41,227 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-18 20:17:41,229 - INFO - ✅ 写入权限测试通过
+2025-06-18 20:17:41,230 - INFO - 以直接模式启动爬虫
+2025-06-18 20:17:41,230 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-18 20:18:29,022 - WARNING - Login attempt 1 failed
+2025-06-18 20:19:01,832 - WARNING - Login attempt 2 failed
+2025-06-18 20:19:34,997 - WARNING - Login attempt 3 failed
+2025-06-18 20:19:34,998 - ERROR - Spider failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BD308162+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD291E19+595513]
+	(No symbol) [0x00007FF6BD0AE6CF]
+	(No symbol) [0x00007FF6BD0F2960]
+	(No symbol) [0x00007FF6BD0F2A1F]
+	(No symbol) [0x00007FF6BD12D627]
+	(No symbol) [0x00007FF6BD11203F]
+	(No symbol) [0x00007FF6BD0E8147]
+	(No symbol) [0x00007FF6BD12B1EE]
+	(No symbol) [0x00007FF6BD111C63]
+	(No symbol) [0x00007FF6BD0E766E]
+	(No symbol) [0x00007FF6BD0E683C]
+	(No symbol) [0x00007FF6BD0E7221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C9704+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD20D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD200E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6BD4C8695+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD29C991+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296D14+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6BD296E4B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6BD28CFD0+575472]
+	BaseThreadInitThunk [0x00007FF923AD259D+29]
+	RtlUserThreadStart [0x00007FF924ECAF38+40]
+
+2025-06-18 20:20:01,153 - INFO - 程序启动
+2025-06-18 20:20:01,153 - INFO - 当前工作目录: D:\code\newproject
+2025-06-18 20:20:01,153 - INFO - Python版本: 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+2025-06-18 20:20:01,154 - INFO - ✅ 已设置目录权限: D:\code\newproject\data
+2025-06-18 20:20:01,156 - INFO - ✅ 写入权限测试通过
+2025-06-18 20:20:01,157 - INFO - 以直接模式启动爬虫
+2025-06-18 20:20:01,157 - INFO - 开始运行爬虫，用户名: 20245224
+2025-06-18 20:20:25,557 - INFO - ✅ Week 1 schedule saved to: D:\code\newproject\data\number.1.json
+2025-06-18 20:20:26,997 - INFO - ✅ Week 2 schedule saved to: D:\code\newproject\data\number.2.json
+2025-06-18 20:20:28,513 - INFO - ✅ Week 3 schedule saved to: D:\code\newproject\data\number.3.json
+2025-06-18 20:20:30,007 - INFO - ✅ Week 4 schedule saved to: D:\code\newproject\data\number.4.json
+2025-06-18 20:20:31,459 - INFO - ✅ Week 5 schedule saved to: D:\code\newproject\data\number.5.json
+2025-06-18 20:20:32,911 - INFO - ✅ Week 6 schedule saved to: D:\code\newproject\data\number.6.json
+2025-06-18 20:20:34,413 - INFO - ✅ Week 7 schedule saved to: D:\code\newproject\data\number.7.json
+2025-06-18 20:20:35,874 - INFO - ✅ Week 8 schedule saved to: D:\code\newproject\data\number.8.json
+2025-06-18 20:20:37,312 - INFO - ✅ Week 9 schedule saved to: D:\code\newproject\data\number.9.json
+2025-06-18 20:20:39,279 - INFO - ✅ Week 10 schedule saved to: D:\code\newproject\data\number.10.json
+2025-06-18 20:20:41,080 - INFO - ✅ Week 11 schedule saved to: D:\code\newproject\data\number.11.json
+2025-06-18 20:20:43,696 - INFO - ✅ Week 12 schedule saved to: D:\code\newproject\data\number.12.json
+2025-06-18 20:20:46,202 - INFO - ✅ Week 13 schedule saved to: D:\code\newproject\data\number.13.json
+2025-06-18 20:20:48,801 - INFO - ✅ Week 14 schedule saved to: D:\code\newproject\data\number.14.json
+2025-06-18 20:20:50,948 - INFO - ✅ Week 15 schedule saved to: D:\code\newproject\data\number.15.json
+2025-06-18 20:20:53,739 - INFO - ✅ Week 16 schedule saved to: D:\code\newproject\data\number.16.json
+2025-06-18 20:20:56,218 - INFO - ✅ Week 17 schedule saved to: D:\code\newproject\data\number.17.json
+2025-06-18 20:20:58,936 - INFO - ✅ Week 18 schedule saved to: D:\code\newproject\data\number.18.json
+2025-06-18 20:21:00,577 - INFO - ✅ Week 19 schedule saved to: D:\code\newproject\data\number.19.json
+2025-06-18 20:21:02,563 - INFO - ✅ Week 20 schedule saved to: D:\code\newproject\data\number.20.json

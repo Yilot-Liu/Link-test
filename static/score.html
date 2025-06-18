@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>成绩页面</title>
+  <style>
+    body {
+      background-image: linear-gradient(to right, rgba(255, 182, 193, 0.8), rgba(162, 228, 184, 0.8));
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 2rem;
+      margin: 0;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('image/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 0.5;
+      z-index: -1;
+      filter: blur(5px);
+      pointer-events: none;
+    }
+    .top_menu {
+      padding: 0.5rem 3rem;
+      background: linear-gradient(to right, #ff9a9e, #a2e4b8);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 3px solid black;
+      border-radius: 15px 50px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #logo {
+      height: 50px;
+    }
+    .top_button {
+      padding: 8px 16px;
+      margin-left: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: 2px solid #333;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .top_button:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      transform: translateY(-2px);
+    }
+    .score-table {
+      margin: 1rem auto;
+      border-collapse: collapse;
+      width: 80%;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 12px;
+      overflow: hidden;
+      color: #000;
+    }
+    .score-table th,
+    .score-table td {
+      background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+    .score-table th {
+      background: #f0f8ff;
+      color: #333;
+      font-weight: bold;
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+      font-size: 14px;
+    }
+    .score-table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.4;
+      vertical-align: middle;
+      min-height: 60px;
+      max-width: 120px;
+      word-wrap: break-word;
+      word-break: break-all;
+      white-space: normal;
+    }
+    .score-table tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    .score-table tr:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .status-message {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="top_menu">
+    <img id="logo" src="image/logo.png" alt="技术试验场">
+    <div>
+      <button class="top_button">首页</button>
+      <button class="top_button" onclick="window.location.href='score.html'">成绩</button>
+      <button class="top_button" onclick="window.location.href='like.html'">猜你喜欢</button>
+      <button class="top_button" onclick="window.location.href='class.html'">课程表</button>
+      <button class="top_button" onclick="window.location.href='workmd.html'">说明</button>
+    </div>
+  </div>
+  <h2>成绩页面</h2>
+  <div class="status-message">这里可以展示成绩相关内容</div>
+  <table class="score-table">
+    <!-- 这里可以插入成绩表格内容 -->
+  </table>
+</body>
+</html>
