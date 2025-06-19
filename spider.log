@@ -485,3 +485,30 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ff923ad259d+29]
 	RtlUserThreadStart [0x0x7ff924ecaf38+40]
 
+2025-06-19 19:42:31,897 - WARNING - Login attempt 1 failed
+2025-06-19 19:43:04,908 - WARNING - Login attempt 2 failed
+2025-06-19 19:43:38,290 - WARNING - Login attempt 3 failed
+2025-06-19 19:43:38,290 - ERROR - Spider failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff669eecda5+78885]
+	GetHandleVerifier [0x0x7ff669eece00+78976]
+	(No symbol) [0x0x7ff669ca9bca]
+	(No symbol) [0x0x7ff669d00766]
+	(No symbol) [0x0x7ff669d00a1c]
+	(No symbol) [0x0x7ff669d54467]
+	(No symbol) [0x0x7ff669d28bcf]
+	(No symbol) [0x0x7ff669d5122f]
+	(No symbol) [0x0x7ff669d28963]
+	(No symbol) [0x0x7ff669cf16b1]
+	(No symbol) [0x0x7ff669cf2443]
+	GetHandleVerifier [0x0x7ff66a1c4eed+3061101]
+	GetHandleVerifier [0x0x7ff66a1bf33d+3037629]
+	GetHandleVerifier [0x0x7ff66a1de592+3165202]
+	GetHandleVerifier [0x0x7ff669f0730e+186766]
+	GetHandleVerifier [0x0x7ff669f0eb3f+217535]
+	GetHandleVerifier [0x0x7ff669ef59b4+114740]
+	GetHandleVerifier [0x0x7ff669ef5b69+115177]
+	GetHandleVerifier [0x0x7ff669edc368+10728]
+	BaseThreadInitThunk [0x0x7ff908bc259d+29]
+	RtlUserThreadStart [0x0x7ff90a46af38+40]
+

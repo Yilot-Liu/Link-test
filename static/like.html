@@ -92,28 +92,69 @@
     </div>
   </div>
   <h2>猜你喜欢</h2>
-  <div class="video-list" id="video-list">
-    <!-- 这里将动态插入视频卡片 -->
+  <div class="like-form">
+    <input type="text" id="like-title" placeholder="请输入你感兴趣的视频标题">
+    <input type="number" id="like-pages" min="1" value="1" placeholder="查询页数">
+    <button id="like-btn">获取猜你喜欢</button>
+    <button id="like-refresh">刷新</button>
   </div>
+  <div id="like-status" class="status-message"></div>
+  <div id="like-list"></div>
   <script>
-    fetch('/like-videos')
+    document.getElementById('like-btn').onclick = function() {
+      const title = document.getElementById('like-title').value.trim();
+      const pages = parseInt(document.getElementById('like-pages').value) || 1;
+      if (!title) {
+        alert('请输入视频标题关键词');
+        return;
+      }
+      const statusDiv = document.getElementById('like-status');
+      statusDiv.textContent = '正在爬取，请稍候...';
+      fetch('/start-like-spider', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, pages })
+      })
       .then(res => res.json())
-      .then(videos => {
-        const list = document.getElementById('video-list');
-        list.innerHTML = '';
-        videos.slice(0, 5).forEach(video => {
-          const item = document.createElement('div');
-          item.className = 'video-item';
-          item.innerHTML = `
-            <img class="video-thumb" src="${video.thumb}" alt="${video.title}">
-            <div class="video-title">${video.title}</div>
-          `;
-          list.appendChild(item);
-        });
+      .then(data => {
+        if (data.success) {
+          setTimeout(() => fetchLike(title), 4000); // 等待爬虫完成
+        } else {
+          statusDiv.textContent = '爬虫启动失败：' + (data.message || '未知错误');
+        }
       })
       .catch(() => {
-        document.getElementById('video-list').innerHTML = '<p>暂无数据</p>';
+        statusDiv.textContent = '请求失败';
       });
+    };
+    document.getElementById('like-refresh').onclick = function() {
+      const title = document.getElementById('like-title').value.trim();
+      if (!title) {
+        alert('请输入视频标题关键词');
+        return;
+      }
+      fetchLike(title);
+    };
+    function fetchLike(title) {
+      fetch(`/get-like?title=${encodeURIComponent(title)}`)
+        .then(res => res.json())
+        .then(data => renderLikeList(data))
+        .catch(() => {
+          document.getElementById('like-status').textContent = '获取数据失败';
+        });
+    }
+    function renderLikeList(data) {
+      const listDiv = document.getElementById('like-list');
+      if (!Array.isArray(data) || data.length === 0) {
+        listDiv.innerHTML = '<p>暂无数据</p>';
+        return;
+      }
+      listDiv.innerHTML = data.map(item =>
+        `<div class='like-item'>
+          <a href='${item.url}' target='_blank'><strong>${item.title}</strong></a>
+        </div>`
+      ).join('');
+    }
   </script>
 </body>
 </html> 

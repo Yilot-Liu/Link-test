@@ -1,8 +1,9 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 import subprocess
 import os
 import json
 from threading import Thread
+import urllib.parse
 
 app = Flask(__name__)
 
@@ -65,6 +66,39 @@ def get_course(week):
                 return jsonify({'error': '数据不存在'}), 404
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+@app.route('/start-like-spider', methods=['POST'])
+def start_like_spider():
+    try:
+        data = request.json
+        title = data.get('title')
+        pages = int(data.get('pages', 1))
+        if not title:
+            return jsonify({'success': False, 'message': '缺少视频标题参数'}), 400
+        # 调用bilispider.py，传递title和pages参数
+        result = subprocess.run(['python', 'bilispider.py', title, str(pages)], capture_output=True, text=True)
+        if result.returncode == 0:
+            return jsonify({'success': True, 'message': '爬虫已完成'})
+        else:
+            return jsonify({'success': False, 'message': result.stderr or '爬虫执行失败'})
+    except Exception as e:
+        return jsonify({'success': False, 'message': str(e)}), 500
+
+@app.route('/get-like', methods=['GET'])
+def get_like():
+    try:
+        title = request.args.get('title', '')
+        if not title:
+            return jsonify([])
+        safe_title = urllib.parse.quote(title, safe='')
+        filename = f'like_data/like_{safe_title}.json'
+        if os.path.exists(filename):
+            with open(filename, 'r', encoding='utf-8') as f:
+                return jsonify(json.load(f))
+        else:
+            return jsonify([])
+    except Exception as e:
+        return jsonify([])
 
 if __name__ == '__main__':
     app.run(port=5000, debug=False, use_reloader=False)
