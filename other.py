@@ -2,6 +2,8 @@ import os
 import json
 import time
 import logging
+import threading
+from flask import Flask, request, jsonify
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
@@ -15,34 +17,34 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('spider.log', encoding='utf-8'),
-        logging.StreamHandler(sys.stdout)
+        logging.FileHandler('spider.log'),
+        logging.StreamHandler()
     ]
 )
 
-# 添加启动日志
-logging.info("程序启动")
-logging.info(f"当前工作目录: {os.getcwd()}")
-logging.info(f"Python版本: {sys.version}")
+app = Flask(__name__)
 
 # Configuration
-BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'class_data')
 MAX_RETRIES = 3
 WAIT_TIMEOUT = 15
 WEEK_RANGE = range(1, 21)  # Weeks 1-20
 
 def init_driver():
-    """Initialize and configure Edge WebDriver"""
+    """Initialize and configure Chrome WebDriver"""
     try:
-        edge_options = Options()
-        edge_options.add_argument("--headless=new")
-        edge_options.add_argument("--disable-gpu")
-        edge_options.add_argument("--no-sandbox")
-        edge_options.add_argument("--disable-dev-shm-usage")
-        edge_options.add_argument("--window-size=1920,1080")
-        
-        # 使用Edge浏览器
-        driver = webdriver.Edge(options=edge_options)
+        chrome_options = Options()
+        chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option("useAutomationExtension", False)
+
+        # 指定本地 chromedriver 路径
+        service = Service('./chromedriver.exe')
+        driver = webdriver.Chrome(service=service, options=chrome_options)
 
         # Mask selenium detection
         driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
@@ -172,10 +174,45 @@ def run_spider(username, password):
         if driver:
             driver.quit()
 
+@app.route('/start-spider', methods=['POST'])
+def start_spider_api():
+    """API endpoint to start the spider"""
+    if not request.is_json:
+        return jsonify({'status': 'fail', 'msg': 'Request must be JSON'}), 400
+
+    data = request.get_json()
+    username = data.get('username')
+    password = data.get('password')
+
+    if not username or not password:
+        return jsonify({'status': 'fail', 'msg': 'Username and password are required'}), 400
+
+    def run_async():
+        try:
+            success, msg = run_spider(username, password)
+            if success:
+                logging.info("Spider completed successfully")
+            else:
+                logging.error(f"Spider failed: {msg}")
+        except Exception as e:
+            logging.error(f"Unexpected error in spider thread: {str(e)}")
+
+    threading.Thread(target=run_async, daemon=True).start()
+    
+    return jsonify({
+        'status': 'success',
+        'msg': 'Spider started successfully. Please check the logs for progress.'
+    })
+
 if __name__ == '__main__':
-    # 这里只保留直接运行爬虫的主流程
-    # 例如:
-    # username = ...
-    # password = ...
-    # run_spider(username, password)
-    pass  # 你可以根据需要补充主流程
+    import sys
+    if len(sys.argv) < 3:
+        print('用法: python other.py 用户名 密码')
+        sys.exit(1)
+    username = sys.argv[1]
+    password = sys.argv[2]
+    success, msg = run_spider(username, password)
+    if success:
+        print('爬取成功:', msg)
+    else:
+        print('爬取失败:', msg)

@@ -4093,3 +4093,423 @@ Arguments: ()
 2025-06-18 20:28:39,456 - WARNING -  * Debugger is active!
 2025-06-18 20:28:39,468 - INFO -  * Debugger PIN: 336-238-552
 2025-06-18 20:28:39,502 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 20:53:44,342 - INFO - 服务器启动
+2025-06-18 20:53:44,342 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 20:53:44,343 - INFO - 已加载第1周数据
+2025-06-18 20:53:44,343 - INFO - 已加载第2周数据
+2025-06-18 20:53:44,344 - INFO - 已加载第3周数据
+2025-06-18 20:53:44,344 - INFO - 已加载第4周数据
+2025-06-18 20:53:44,344 - INFO - 已加载第5周数据
+2025-06-18 20:53:44,346 - INFO - 已加载第6周数据
+2025-06-18 20:53:44,346 - INFO - 已加载第7周数据
+2025-06-18 20:53:44,347 - INFO - 已加载第8周数据
+2025-06-18 20:53:44,347 - INFO - 已加载第9周数据
+2025-06-18 20:53:44,348 - INFO - 已加载第10周数据
+2025-06-18 20:53:44,348 - INFO - 已加载第11周数据
+2025-06-18 20:53:44,349 - INFO - 已加载第12周数据
+2025-06-18 20:53:44,349 - INFO - 已加载第13周数据
+2025-06-18 20:53:44,350 - INFO - 已加载第14周数据
+2025-06-18 20:53:44,351 - INFO - 已加载第15周数据
+2025-06-18 20:53:44,352 - INFO - 已加载第16周数据
+2025-06-18 20:53:44,353 - INFO - 已加载第17周数据
+2025-06-18 20:53:44,354 - INFO - 已加载第18周数据
+2025-06-18 20:53:44,354 - INFO - 已加载第19周数据
+2025-06-18 20:53:44,356 - INFO - 已加载第20周数据
+2025-06-18 20:53:44,381 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 20:53:44,829 - INFO - 服务器启动
+2025-06-18 20:53:44,830 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 20:53:44,830 - INFO - 已加载第1周数据
+2025-06-18 20:53:44,831 - INFO - 已加载第2周数据
+2025-06-18 20:53:44,831 - INFO - 已加载第3周数据
+2025-06-18 20:53:44,832 - INFO - 已加载第4周数据
+2025-06-18 20:53:44,832 - INFO - 已加载第5周数据
+2025-06-18 20:53:44,832 - INFO - 已加载第6周数据
+2025-06-18 20:53:44,832 - INFO - 已加载第7周数据
+2025-06-18 20:53:44,834 - INFO - 已加载第8周数据
+2025-06-18 20:53:44,834 - INFO - 已加载第9周数据
+2025-06-18 20:53:44,835 - INFO - 已加载第10周数据
+2025-06-18 20:53:44,835 - INFO - 已加载第11周数据
+2025-06-18 20:53:44,836 - INFO - 已加载第12周数据
+2025-06-18 20:53:44,836 - INFO - 已加载第13周数据
+2025-06-18 20:53:44,837 - INFO - 已加载第14周数据
+2025-06-18 20:53:44,837 - INFO - 已加载第15周数据
+2025-06-18 20:53:44,837 - INFO - 已加载第16周数据
+2025-06-18 20:53:44,838 - INFO - 已加载第17周数据
+2025-06-18 20:53:44,838 - INFO - 已加载第18周数据
+2025-06-18 20:53:44,838 - INFO - 已加载第19周数据
+2025-06-18 20:53:44,838 - INFO - 已加载第20周数据
+2025-06-18 20:53:44,847 - WARNING -  * Debugger is active!
+2025-06-18 20:53:44,854 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 20:53:44,875 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 20:58:39,851 - INFO - 服务器启动
+2025-06-18 20:58:39,853 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 20:58:39,853 - INFO - 已加载第1周数据
+2025-06-18 20:58:39,854 - INFO - 已加载第2周数据
+2025-06-18 20:58:39,854 - INFO - 已加载第3周数据
+2025-06-18 20:58:39,855 - INFO - 已加载第4周数据
+2025-06-18 20:58:39,855 - INFO - 已加载第5周数据
+2025-06-18 20:58:39,856 - INFO - 已加载第6周数据
+2025-06-18 20:58:39,857 - INFO - 已加载第7周数据
+2025-06-18 20:58:39,857 - INFO - 已加载第8周数据
+2025-06-18 20:58:39,857 - INFO - 已加载第9周数据
+2025-06-18 20:58:39,858 - INFO - 已加载第10周数据
+2025-06-18 20:58:39,859 - INFO - 已加载第11周数据
+2025-06-18 20:58:39,859 - INFO - 已加载第12周数据
+2025-06-18 20:58:39,860 - INFO - 已加载第13周数据
+2025-06-18 20:58:39,860 - INFO - 已加载第14周数据
+2025-06-18 20:58:39,860 - INFO - 已加载第15周数据
+2025-06-18 20:58:39,860 - INFO - 已加载第16周数据
+2025-06-18 20:58:39,861 - INFO - 已加载第17周数据
+2025-06-18 20:58:39,861 - INFO - 已加载第18周数据
+2025-06-18 20:58:39,861 - INFO - 已加载第19周数据
+2025-06-18 20:58:39,862 - INFO - 已加载第20周数据
+2025-06-18 20:58:39,883 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 20:58:40,323 - INFO - 服务器启动
+2025-06-18 20:58:40,323 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 20:58:40,324 - INFO - 已加载第1周数据
+2025-06-18 20:58:40,324 - INFO - 已加载第2周数据
+2025-06-18 20:58:40,325 - INFO - 已加载第3周数据
+2025-06-18 20:58:40,325 - INFO - 已加载第4周数据
+2025-06-18 20:58:40,326 - INFO - 已加载第5周数据
+2025-06-18 20:58:40,326 - INFO - 已加载第6周数据
+2025-06-18 20:58:40,326 - INFO - 已加载第7周数据
+2025-06-18 20:58:40,327 - INFO - 已加载第8周数据
+2025-06-18 20:58:40,327 - INFO - 已加载第9周数据
+2025-06-18 20:58:40,328 - INFO - 已加载第10周数据
+2025-06-18 20:58:40,328 - INFO - 已加载第11周数据
+2025-06-18 20:58:40,329 - INFO - 已加载第12周数据
+2025-06-18 20:58:40,329 - INFO - 已加载第13周数据
+2025-06-18 20:58:40,330 - INFO - 已加载第14周数据
+2025-06-18 20:58:40,331 - INFO - 已加载第15周数据
+2025-06-18 20:58:40,331 - INFO - 已加载第16周数据
+2025-06-18 20:58:40,332 - INFO - 已加载第17周数据
+2025-06-18 20:58:40,333 - INFO - 已加载第18周数据
+2025-06-18 20:58:40,334 - INFO - 已加载第19周数据
+2025-06-18 20:58:40,334 - INFO - 已加载第20周数据
+2025-06-18 20:58:40,342 - WARNING -  * Debugger is active!
+2025-06-18 20:58:40,352 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 20:58:40,375 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 20:59:55,241 - INFO - 127.0.0.1 - - [18/Jun/2025 20:59:55] "[33mGET /image/logo.png HTTP/1.1[0m" 404 -
+2025-06-18 20:59:55,720 - INFO - 127.0.0.1 - - [18/Jun/2025 20:59:55] "[37mGET /get-course/1 HTTP/1.1[0m" 200 -
+2025-06-18 20:59:55,782 - INFO - 127.0.0.1 - - [18/Jun/2025 20:59:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-18 21:00:27,169 - INFO - 127.0.0.1 - - [18/Jun/2025 21:00:27] "[37mGET /static/score.html HTTP/1.1[0m" 200 -
+2025-06-18 21:00:28,587 - INFO - 127.0.0.1 - - [18/Jun/2025 21:00:28] "[36mGET /static/score.html HTTP/1.1[0m" 304 -
+2025-06-18 21:00:29,034 - INFO - 127.0.0.1 - - [18/Jun/2025 21:00:29] "[36mGET /static/score.html HTTP/1.1[0m" 304 -
+2025-06-18 21:01:07,937 - INFO - 127.0.0.1 - - [18/Jun/2025 21:01:07] "[33mGET /static/image/ HTTP/1.1[0m" 404 -
+2025-06-18 21:01:07,992 - INFO - 127.0.0.1 - - [18/Jun/2025 21:01:07] "[33mGET /static/Famishin,KOTOKO%20-%20恋ひ恋ふ縁.mp3 HTTP/1.1[0m" 404 -
+2025-06-18 21:01:09,612 - INFO - 127.0.0.1 - - [18/Jun/2025 21:01:09] "[37mGET /get-course/1 HTTP/1.1[0m" 200 -
+2025-06-18 21:01:15,558 - INFO - 127.0.0.1 - - [18/Jun/2025 21:01:15] "[37mPOST /query-score HTTP/1.1[0m" 200 -
+2025-06-18 21:01:39,232 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\os.py', reloading
+2025-06-18 21:01:44,375 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:01:44,857 - INFO - 服务器启动
+2025-06-18 21:01:44,857 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:01:44,857 - INFO - 已加载第1周数据
+2025-06-18 21:01:44,859 - INFO - 已加载第2周数据
+2025-06-18 21:01:44,859 - INFO - 已加载第3周数据
+2025-06-18 21:01:44,860 - INFO - 已加载第4周数据
+2025-06-18 21:01:44,861 - INFO - 已加载第5周数据
+2025-06-18 21:01:44,861 - INFO - 已加载第6周数据
+2025-06-18 21:01:44,862 - INFO - 已加载第7周数据
+2025-06-18 21:01:44,863 - INFO - 已加载第8周数据
+2025-06-18 21:01:44,864 - INFO - 已加载第9周数据
+2025-06-18 21:01:44,864 - INFO - 已加载第10周数据
+2025-06-18 21:01:44,865 - INFO - 已加载第11周数据
+2025-06-18 21:01:44,865 - INFO - 已加载第12周数据
+2025-06-18 21:01:44,866 - INFO - 已加载第13周数据
+2025-06-18 21:01:44,866 - INFO - 已加载第14周数据
+2025-06-18 21:01:44,866 - INFO - 已加载第15周数据
+2025-06-18 21:01:44,867 - INFO - 已加载第16周数据
+2025-06-18 21:01:44,867 - INFO - 已加载第17周数据
+2025-06-18 21:01:44,867 - INFO - 已加载第18周数据
+2025-06-18 21:01:44,869 - INFO - 已加载第19周数据
+2025-06-18 21:01:44,869 - INFO - 已加载第20周数据
+2025-06-18 21:01:44,879 - WARNING -  * Debugger is active!
+2025-06-18 21:01:44,889 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:01:44,916 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:01:51,003 - INFO - 127.0.0.1 - - [18/Jun/2025 21:01:51] "[37mPOST /query-score HTTP/1.1[0m" 200 -
+2025-06-18 21:08:37,707 - INFO - 服务器启动
+2025-06-18 21:08:37,707 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:08:37,707 - INFO - 已加载第1周数据
+2025-06-18 21:08:37,708 - INFO - 已加载第2周数据
+2025-06-18 21:08:37,708 - INFO - 已加载第3周数据
+2025-06-18 21:08:37,708 - INFO - 已加载第4周数据
+2025-06-18 21:08:37,709 - INFO - 已加载第5周数据
+2025-06-18 21:08:37,709 - INFO - 已加载第6周数据
+2025-06-18 21:08:37,710 - INFO - 已加载第7周数据
+2025-06-18 21:08:37,710 - INFO - 已加载第8周数据
+2025-06-18 21:08:37,711 - INFO - 已加载第9周数据
+2025-06-18 21:08:37,711 - INFO - 已加载第10周数据
+2025-06-18 21:08:37,712 - INFO - 已加载第11周数据
+2025-06-18 21:08:37,712 - INFO - 已加载第12周数据
+2025-06-18 21:08:37,713 - INFO - 已加载第13周数据
+2025-06-18 21:08:37,713 - INFO - 已加载第14周数据
+2025-06-18 21:08:37,714 - INFO - 已加载第15周数据
+2025-06-18 21:08:37,714 - INFO - 已加载第16周数据
+2025-06-18 21:08:37,715 - INFO - 已加载第17周数据
+2025-06-18 21:08:37,716 - INFO - 已加载第18周数据
+2025-06-18 21:08:37,716 - INFO - 已加载第19周数据
+2025-06-18 21:08:37,717 - INFO - 已加载第20周数据
+2025-06-18 21:08:37,740 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:08:38,181 - INFO - 服务器启动
+2025-06-18 21:08:38,181 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:08:38,182 - INFO - 已加载第1周数据
+2025-06-18 21:08:38,182 - INFO - 已加载第2周数据
+2025-06-18 21:08:38,182 - INFO - 已加载第3周数据
+2025-06-18 21:08:38,183 - INFO - 已加载第4周数据
+2025-06-18 21:08:38,184 - INFO - 已加载第5周数据
+2025-06-18 21:08:38,185 - INFO - 已加载第6周数据
+2025-06-18 21:08:38,185 - INFO - 已加载第7周数据
+2025-06-18 21:08:38,185 - INFO - 已加载第8周数据
+2025-06-18 21:08:38,185 - INFO - 已加载第9周数据
+2025-06-18 21:08:38,186 - INFO - 已加载第10周数据
+2025-06-18 21:08:38,186 - INFO - 已加载第11周数据
+2025-06-18 21:08:38,186 - INFO - 已加载第12周数据
+2025-06-18 21:08:38,187 - INFO - 已加载第13周数据
+2025-06-18 21:08:38,187 - INFO - 已加载第14周数据
+2025-06-18 21:08:38,188 - INFO - 已加载第15周数据
+2025-06-18 21:08:38,188 - INFO - 已加载第16周数据
+2025-06-18 21:08:38,189 - INFO - 已加载第17周数据
+2025-06-18 21:08:38,189 - INFO - 已加载第18周数据
+2025-06-18 21:08:38,189 - INFO - 已加载第19周数据
+2025-06-18 21:08:38,189 - INFO - 已加载第20周数据
+2025-06-18 21:08:38,198 - WARNING -  * Debugger is active!
+2025-06-18 21:08:38,206 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:08:38,235 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:09:16,993 - INFO - 127.0.0.1 - - [18/Jun/2025 21:09:16] "[36mGET /static/score.html HTTP/1.1[0m" 304 -
+2025-06-18 21:09:33,721 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-18 21:09:34,780 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:09:35,288 - INFO - 服务器启动
+2025-06-18 21:09:35,288 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:09:35,289 - INFO - 已加载第1周数据
+2025-06-18 21:09:35,290 - INFO - 已加载第2周数据
+2025-06-18 21:09:35,291 - INFO - 已加载第3周数据
+2025-06-18 21:09:35,291 - INFO - 已加载第4周数据
+2025-06-18 21:09:35,291 - INFO - 已加载第5周数据
+2025-06-18 21:09:35,291 - INFO - 已加载第6周数据
+2025-06-18 21:09:35,292 - INFO - 已加载第7周数据
+2025-06-18 21:09:35,292 - INFO - 已加载第8周数据
+2025-06-18 21:09:35,294 - INFO - 已加载第9周数据
+2025-06-18 21:09:35,294 - INFO - 已加载第10周数据
+2025-06-18 21:09:35,295 - INFO - 已加载第11周数据
+2025-06-18 21:09:35,295 - INFO - 已加载第12周数据
+2025-06-18 21:09:35,295 - INFO - 已加载第13周数据
+2025-06-18 21:09:35,295 - INFO - 已加载第14周数据
+2025-06-18 21:09:35,297 - INFO - 已加载第15周数据
+2025-06-18 21:09:35,297 - INFO - 已加载第16周数据
+2025-06-18 21:09:35,297 - INFO - 已加载第17周数据
+2025-06-18 21:09:35,297 - INFO - 已加载第18周数据
+2025-06-18 21:09:35,298 - INFO - 已加载第19周数据
+2025-06-18 21:09:35,298 - INFO - 已加载第20周数据
+2025-06-18 21:09:35,308 - WARNING -  * Debugger is active!
+2025-06-18 21:09:35,321 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:09:35,356 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:09:51,103 - INFO - 127.0.0.1 - - [18/Jun/2025 21:09:51] "[37mPOST /query-score HTTP/1.1[0m" 200 -
+2025-06-18 21:10:11,175 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:10:11,175 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:10:11,685 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:10:11,687 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:10:16,806 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:10:17,288 - INFO - 服务器启动
+2025-06-18 21:10:17,288 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:10:17,289 - INFO - 已加载第1周数据
+2025-06-18 21:10:17,289 - INFO - 已加载第2周数据
+2025-06-18 21:10:17,290 - INFO - 已加载第3周数据
+2025-06-18 21:10:17,290 - INFO - 已加载第4周数据
+2025-06-18 21:10:17,291 - INFO - 已加载第5周数据
+2025-06-18 21:10:17,291 - INFO - 已加载第6周数据
+2025-06-18 21:10:17,291 - INFO - 已加载第7周数据
+2025-06-18 21:10:17,292 - INFO - 已加载第8周数据
+2025-06-18 21:10:17,293 - INFO - 已加载第9周数据
+2025-06-18 21:10:17,293 - INFO - 已加载第10周数据
+2025-06-18 21:10:17,294 - INFO - 已加载第11周数据
+2025-06-18 21:10:17,294 - INFO - 已加载第12周数据
+2025-06-18 21:10:17,295 - INFO - 已加载第13周数据
+2025-06-18 21:10:17,295 - INFO - 已加载第14周数据
+2025-06-18 21:10:17,296 - INFO - 已加载第15周数据
+2025-06-18 21:10:17,296 - INFO - 已加载第16周数据
+2025-06-18 21:10:17,297 - INFO - 已加载第17周数据
+2025-06-18 21:10:17,297 - INFO - 已加载第18周数据
+2025-06-18 21:10:17,298 - INFO - 已加载第19周数据
+2025-06-18 21:10:17,298 - INFO - 已加载第20周数据
+2025-06-18 21:10:17,309 - WARNING -  * Debugger is active!
+2025-06-18 21:10:17,319 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:10:17,350 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:16:02,975 - INFO - 服务器启动
+2025-06-18 21:16:03,059 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:16:03,484 - INFO - 服务器启动
+2025-06-18 21:16:03,493 - WARNING -  * Debugger is active!
+2025-06-18 21:16:03,499 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:16:03,544 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:16:08,310 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:08] "[33mGET /image/logo.png HTTP/1.1[0m" 404 -
+2025-06-18 21:16:08,750 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:08] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:18,268 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:18] "[33mGET /static/image/ HTTP/1.1[0m" 404 -
+2025-06-18 21:16:18,305 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:18] "[33mGET /static/Famishin,KOTOKO%20-%20恋ひ恋ふ縁.mp3 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:20,076 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:20] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:30,844 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:30] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:32,519 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:32] "[33mGET /get-course/4 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:33,522 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:33] "[33mGET /get-course/8 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:34,836 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:34] "[33mGET /get-course/15 HTTP/1.1[0m" 404 -
+2025-06-18 21:16:37,518 - INFO - 127.0.0.1 - - [18/Jun/2025 21:16:37] "[33mPOST /query-score HTTP/1.1[0m" 404 -
+2025-06-18 21:18:10,645 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:18:10,645 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:18:10,646 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:18:10,646 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:18:11,693 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:18:12,062 - INFO - 服务器启动
+2025-06-18 21:18:12,076 - WARNING -  * Debugger is active!
+2025-06-18 21:18:12,092 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:18:12,157 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:18:29,676 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:29] "[37mGET /static/score.html HTTP/1.1[0m" 200 -
+2025-06-18 21:18:30,981 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:30] "[33mPOST /query-score HTTP/1.1[0m" 404 -
+2025-06-18 21:18:33,326 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:33] "[33mGET /like-videos HTTP/1.1[0m" 404 -
+2025-06-18 21:18:33,919 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:33] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:18:34,935 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:34] "[33mPOST /start-spider HTTP/1.1[0m" 404 -
+2025-06-18 21:18:36,380 - INFO - 127.0.0.1 - - [18/Jun/2025 21:18:36] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:22:43,685 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:22:43,685 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:22:43,889 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:22:43,891 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:22:43,892 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:22:44,936 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:22:45,438 - INFO - 服务器启动
+2025-06-18 21:22:45,450 - WARNING -  * Debugger is active!
+2025-06-18 21:22:45,461 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:22:45,500 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:23:07,946 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:23:07,948 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:23:07,948 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:23:08,459 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:23:08,459 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:23:09,495 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:23:10,046 - INFO - 服务器启动
+2025-06-18 21:23:10,055 - WARNING -  * Debugger is active!
+2025-06-18 21:23:10,066 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:23:10,093 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:28:47,536 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:47] "[33mPOST /start-spider HTTP/1.1[0m" 404 -
+2025-06-18 21:28:48,779 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:48] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:28:49,303 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:49] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:28:50,439 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:50] "[37mGET /static/class.html HTTP/1.1[0m" 200 -
+2025-06-18 21:28:50,626 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:50] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:28:52,582 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:52] "[36mGET /static/class.html HTTP/1.1[0m" 304 -
+2025-06-18 21:28:52,637 - INFO - 127.0.0.1 - - [18/Jun/2025 21:28:52] "[33mGET /get-course/1 HTTP/1.1[0m" 404 -
+2025-06-18 21:29:55,278 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\__init__.py', reloading
+2025-06-18 21:29:55,279 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+2025-06-18 21:29:55,279 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chrome\\service.py', reloading
+2025-06-18 21:29:55,280 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\by.py', reloading
+2025-06-18 21:29:55,282 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chrome\\options.py', reloading
+2025-06-18 21:29:55,282 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\support\\ui.py', reloading
+2025-06-18 21:29:55,283 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\support\\__init__.py', reloading
+2025-06-18 21:29:55,284 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py', reloading
+2025-06-18 21:29:55,294 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\support\\select.py', reloading
+2025-06-18 21:29:55,294 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\support\\wait.py', reloading
+2025-06-18 21:29:55,296 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\types.py', reloading
+2025-06-18 21:29:55,297 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\remote\\webdriver.py', reloading
+2025-06-18 21:29:55,298 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\remote\\webelement.py', reloading
+2025-06-18 21:29:55,299 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\options.py', reloading
+2025-06-18 21:29:55,300 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\timeouts.py', reloading
+2025-06-18 21:29:55,301 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py', reloading
+2025-06-18 21:29:55,301 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\remote\\file_detector.py', reloading
+2025-06-18 21:29:55,302 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py', reloading
+2025-06-18 21:29:55,303 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chromium\\__init__.py', reloading
+2025-06-18 21:29:55,304 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chromium\\service.py', reloading
+2025-06-18 21:29:55,305 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+2025-06-18 21:29:55,306 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\common\\service.py', reloading
+2025-06-18 21:29:55,310 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chromium\\options.py', reloading
+2025-06-18 21:29:55,312 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py', reloading
+2025-06-18 21:29:55,328 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\webdriver_manager\\chrome.py', reloading
+2025-06-18 21:29:55,334 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\webdriver_manager\\core\\manager.py', reloading
+2025-06-18 21:29:55,335 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\webdriver_manager\\core\\os_manager.py', reloading
+2025-06-18 21:29:55,351 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\common\\exceptions.py', reloading
+2025-06-18 21:29:55,356 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-06-18 21:29:55,357 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-06-18 21:29:55,358 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-06-18 21:29:55,360 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\remote\\switch_to.py', reloading
+2025-06-18 21:29:55,366 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\edge\\options.py', reloading
+2025-06-18 21:29:55,367 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\edge\\service.py', reloading
+2025-06-18 21:29:55,368 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python38\\site-packages\\selenium\\webdriver\\edge\\webdriver.py', reloading
+2025-06-18 21:29:55,381 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\base64.py', reloading
+2025-06-18 21:29:55,396 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\urllib\\parse.py', reloading
+2025-06-18 21:29:55,418 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\_compat.py', reloading
+2025-06-18 21:29:55,420 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\config.py', reloading
+2025-06-18 21:29:55,423 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-06-18 21:29:55,424 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+2025-06-18 21:29:55,425 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\werkzeug\\routing.py', reloading
+2025-06-18 21:29:55,426 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-06-18 21:29:55,427 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-06-18 21:29:55,428 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-06-18 21:29:55,430 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\werkzeug\\local.py', reloading
+2025-06-18 21:29:55,431 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\werkzeug\\_compat.py', reloading
+2025-06-18 21:29:55,432 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+2025-06-18 21:29:55,433 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+2025-06-18 21:29:55,434 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\site-packages\\itsdangerous\\_json.py', reloading
+2025-06-18 21:29:55,436 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\subprocess.py', reloading
+2025-06-18 21:29:55,437 - INFO -  * Detected change in 'C:\\Program Files\\python\\Lib\\threading.py', reloading
+2025-06-18 21:29:56,482 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:29:56,875 - INFO - 服务器启动
+2025-06-18 21:29:56,886 - WARNING -  * Debugger is active!
+2025-06-18 21:29:56,894 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:29:56,917 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:30:48,554 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:30:48,555 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:30:49,607 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:30:49,986 - INFO - 服务器启动
+2025-06-18 21:30:49,992 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:30:49,997 - INFO - 已加载第1周数据
+2025-06-18 21:30:50,000 - INFO - 已加载第2周数据
+2025-06-18 21:30:50,009 - INFO - 已加载第3周数据
+2025-06-18 21:30:50,010 - INFO - 已加载第4周数据
+2025-06-18 21:30:50,024 - INFO - 已加载第5周数据
+2025-06-18 21:30:50,032 - INFO - 已加载第6周数据
+2025-06-18 21:30:50,038 - INFO - 已加载第7周数据
+2025-06-18 21:30:50,039 - INFO - 已加载第8周数据
+2025-06-18 21:30:50,039 - INFO - 已加载第9周数据
+2025-06-18 21:30:50,040 - INFO - 已加载第10周数据
+2025-06-18 21:30:50,040 - INFO - 已加载第11周数据
+2025-06-18 21:30:50,045 - INFO - 已加载第12周数据
+2025-06-18 21:30:50,053 - INFO - 已加载第13周数据
+2025-06-18 21:30:50,054 - INFO - 已加载第14周数据
+2025-06-18 21:30:50,069 - INFO - 已加载第15周数据
+2025-06-18 21:30:50,069 - INFO - 已加载第16周数据
+2025-06-18 21:30:50,070 - INFO - 已加载第17周数据
+2025-06-18 21:30:50,071 - INFO - 已加载第18周数据
+2025-06-18 21:30:50,072 - INFO - 已加载第19周数据
+2025-06-18 21:30:50,086 - INFO - 已加载第20周数据
+2025-06-18 21:30:50,147 - WARNING -  * Debugger is active!
+2025-06-18 21:30:50,153 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:30:50,205 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:31:04,790 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:31:04,790 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:31:04,791 - INFO -  * Detected change in 'D:\\code\\newproject\\other.py', reloading
+2025-06-18 21:31:05,851 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:31:06,238 - INFO - 服务器启动
+2025-06-18 21:31:06,242 - INFO - 数据目录: D:\code\newproject\data
+2025-06-18 21:31:06,261 - INFO - 已加载第1周数据
+2025-06-18 21:31:06,262 - INFO - 已加载第2周数据
+2025-06-18 21:31:06,295 - INFO - 已加载第3周数据
+2025-06-18 21:31:06,331 - INFO - 已加载第4周数据
+2025-06-18 21:31:06,334 - INFO - 已加载第5周数据
+2025-06-18 21:31:06,334 - INFO - 已加载第6周数据
+2025-06-18 21:31:06,335 - INFO - 已加载第7周数据
+2025-06-18 21:31:06,356 - INFO - 已加载第8周数据
+2025-06-18 21:31:06,356 - INFO - 已加载第9周数据
+2025-06-18 21:31:06,357 - INFO - 已加载第10周数据
+2025-06-18 21:31:06,360 - INFO - 已加载第11周数据
+2025-06-18 21:31:06,361 - INFO - 已加载第12周数据
+2025-06-18 21:31:06,362 - INFO - 已加载第13周数据
+2025-06-18 21:31:06,364 - INFO - 已加载第14周数据
+2025-06-18 21:31:06,369 - INFO - 已加载第15周数据
+2025-06-18 21:31:06,374 - INFO - 已加载第16周数据
+2025-06-18 21:31:06,376 - INFO - 已加载第17周数据
+2025-06-18 21:31:06,385 - INFO - 已加载第18周数据
+2025-06-18 21:31:06,385 - INFO - 已加载第19周数据
+2025-06-18 21:31:06,399 - INFO - 已加载第20周数据
+2025-06-18 21:31:06,410 - WARNING -  * Debugger is active!
+2025-06-18 21:31:06,424 - INFO -  * Debugger PIN: 336-238-552
+2025-06-18 21:31:06,453 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-06-18 21:32:20,878 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:32:20,879 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:32:20,879 - INFO -  * Detected change in 'D:\\code\\newproject\\server.py', reloading
+2025-06-18 21:32:21,940 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:32:38,678 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:32:48,956 - INFO -  * Restarting with windowsapi reloader
+2025-06-18 21:33:17,768 - INFO -  * Restarting with windowsapi reloader

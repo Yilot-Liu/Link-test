@@ -210,6 +210,8 @@
   <script>
     const WEEK_COUNT = 20;
     const weekSelect = document.getElementById('week-select');
+    // 节次说明
+    const timeSlots = ['第一节', '第二节', '第三节', '第四节', '第五节', '第六节', '第七节', '第八节', '第九节', '第十节'];
 
     // 检查登录信息
     const username = localStorage.getItem('username');
@@ -221,49 +223,54 @@
     for (let i = 1; i <= WEEK_COUNT; i++) {
       const option = document.createElement('option');
       option.value = i;
-      option.textContent = `第 ${i} 周`;
+      option.text = '第' + i + '周';
       weekSelect.appendChild(option);
     }
 
-    weekSelect.addEventListener('change', () => loadCourseData(parseInt(weekSelect.value)));
-
-    function formatCourseCell(cellText) {
-      if (!cellText) return '';
-      
-      const parts = cellText.split('\n');
-      if (parts.length === 1) return cellText;
-      
-      return `
-        <div class="course-cell">
-          <div class="course-name">${parts[0]}</div>
-          <div class="course-info">${parts.slice(1).join('<br>')}</div>
-        </div>
-      `;
+    function renderTable(data) {
+      const tableBody = document.getElementById('table-body');
+      tableBody.innerHTML = '';
+      if (!data || data.error) {
+        const row = document.createElement('tr');
+        const cell = document.createElement('td');
+        cell.colSpan = 8;
+        cell.innerText = data && data.error ? data.error : '暂无数据';
+        row.appendChild(cell);
+        tableBody.appendChild(row);
+        return;
+      }
+      for (let i = 0; i < data.length; i++) {
+        const row = document.createElement('tr');
+        // 第一列：节次说明
+        const slotCell = document.createElement('td');
+        slotCell.innerText = timeSlots[i] || `第${i+1}节`;
+        row.appendChild(slotCell);
+        // 后续列：课程内容
+        for (let j = 0; j < data[i].length; j++) {
+          const cell = document.createElement('td');
+          cell.innerText = data[i][j] || '';
+          row.appendChild(cell);
+        }
+        tableBody.appendChild(row);
+      }
     }
 
-    function loadCourseData(weekNum) {
-      fetch(`/get-course/${weekNum}`)
+    function fetchCourse(week) {
+      fetch(`/get-course/${week}`)
         .then(res => res.json())
-        .then(data => {
-          const tableBody = document.getElementById('table-body');
-          tableBody.innerHTML = '';
-          const timeSlots = ['第一节', '第二节', '第三节', '第四节', '第五节', '其余课程'];
-
-          for (let i = 0; i < data.length; i++) {
-            const tr = document.createElement('tr');
-            tr.innerHTML = `<td><strong>${timeSlots[i] || `第${i + 1}节`}</strong></td>`;
-            for (let j = 0; j < 7; j++) {
-              const cell = data[i][j] || '';
-              tr.innerHTML += `<td>${formatCourseCell(cell)}</td>`;
-            }
-            tableBody.appendChild(tr);
-          }
-        })
-        .catch(err => {
-          console.error(err);
-          document.getElementById('table-body').innerHTML = `<tr><td colspan="8">加载失败：${err.message}</td></tr>`;
-        });
+        .then(data => renderTable(data))
+        .catch(() => renderTable({error: '获取数据失败'}));
     }
+
+    weekSelect.addEventListener('change', function() {
+      fetchCourse(this.value);
+    });
+
+    // 页面加载默认显示第1周
+    window.onload = function() {
+      weekSelect.value = 1;
+      fetchCourse(1);
+    };
 
     // 启动爬虫按钮事件
     document.getElementById('startSpiderBtn').addEventListener('click', async () => {
@@ -290,7 +297,7 @@
           statusDiv.textContent = '登录成功，正在获取课程数据...';
           alert('爬虫启动成功！请等待数据获取完成。');
           setTimeout(() => {
-            loadCourseData(parseInt(weekSelect.value));
+            fetchCourse(parseInt(weekSelect.value));
             statusDiv.textContent = '数据获取完成！';
           }, 5000);
         } else {
@@ -310,12 +317,9 @@
       const statusDiv = document.getElementById('spiderStatus');
       statusDiv.textContent = '正在刷新数据...';
       const currentWeek = parseInt(weekSelect.value);
-      loadCourseData(currentWeek);
+      fetchCourse(currentWeek);
       statusDiv.textContent = '数据刷新完成！';
     });
-
-    weekSelect.value = 1;
-    loadCourseData(1);
   </script>
 </body>
 </html>

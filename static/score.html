@@ -126,9 +126,48 @@
     </div>
   </div>
   <h2>成绩页面</h2>
-  <div class="status-message">这里可以展示成绩相关内容</div>
-  <table class="score-table">
-    <!-- 这里可以插入成绩表格内容 -->
+  <button id="queryScoreBtn" class="top_button">查询成绩</button>
+  <div id="scoreStatus" class="status-message"></div>
+  <table class="score-table" id="score-table">
+    <!-- 动态插入成绩内容 -->
   </table>
+  <script>
+    document.getElementById('queryScoreBtn').onclick = function() {
+      const statusDiv = document.getElementById('scoreStatus');
+      statusDiv.textContent = '正在查询成绩，请稍候...';
+      fetch('/query-score', {method: 'POST'})
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            statusDiv.textContent = '查询成功！';
+            renderScoreTable(data.data);
+          } else {
+            statusDiv.textContent = '查询失败：' + data.msg;
+          }
+        })
+        .catch(err => {
+          statusDiv.textContent = '查询失败：' + err.message;
+        });
+    };
+
+    function renderScoreTable(scores) {
+      const table = document.getElementById('score-table');
+      table.innerHTML = '';
+      if (!scores || !scores.length) {
+        table.innerHTML = '<tr><td>暂无成绩数据</td></tr>';
+        return;
+      }
+      // 渲染表头
+      const thead = document.createElement('thead');
+      thead.innerHTML = '<tr>' + scores[0].map(t => `<th>${t}</th>`).join('') + '</tr>';
+      table.appendChild(thead);
+      // 渲染表体
+      const tbody = document.createElement('tbody');
+      for (let i = 1; i < scores.length; i++) {
+        tbody.innerHTML += '<tr>' + scores[i].map(t => `<td>${t}</td>`).join('') + '</tr>';
+      }
+      table.appendChild(tbody);
+    }
+  </script>
 </body>
 </html>

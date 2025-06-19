@@ -200,18 +200,34 @@
         loginBox.classList.remove('hidden');
         formBox.style.left = '5%';
     });
-    // 替换原有登录按钮的 onclick
-    document.getElementById('login-btn').onclick = function() {
+
+    const loginBtn2 = document.getElementById('login-btn');
+    loginBtn2.addEventListener('click', function() {
         const username = document.getElementById('login-username').value;
         const password = document.getElementById('login-password').value;
-        if(username && password){
-            localStorage.setItem('username', username);
-            localStorage.setItem('password', password);
-            window.location.href = 'class.html';
-        }else{
+        if (!username || !password) {
             alert('请输入用户名和密码');
+            return;
         }
-    }
+        fetch('/start-spider', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                window.location.href = 'class.html';
+            } else {
+                alert('登录失败：' + data.message);
+            }
+        })
+        .catch(err => {
+            alert('请求出错：' + err);
+        });
+    });
 </script>
 </body>
 </html>
