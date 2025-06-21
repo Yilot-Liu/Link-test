@@ -6,13 +6,28 @@
   <title>猜你喜欢</title>
   <style>
     body {
-      background-image: linear-gradient(to right, rgba(255, 182, 193, 0.8), rgba(162, 228, 184, 0.8)), url('image/bg.jpg');
+      background-image: linear-gradient(to right, rgba(255, 182, 193, 0.8), rgba(162, 228, 184, 0.8));
       background-size: cover;
-      background-attachment: fixed;
       font-family: 'Arial', sans-serif;
       text-align: center;
       padding: 2rem;
       margin: 0;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('image/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 0.5;
+      z-index: -1;
+      filter: blur(5px);
+      pointer-events: none;
     }
     .top_menu {
       padding: 0.5rem 3rem;
@@ -42,41 +57,84 @@
       background-color: rgba(255, 255, 255, 0.5);
       transform: translateY(-2px);
     }
-    .video-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 2rem;
+    
+    .like-form {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      display: inline-block;
     }
-    .video-item {
-      background: rgba(255,255,255,0.85);
+    
+    .like-form input {
+      padding: 8px 12px;
+      margin: 0 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    
+    .video-table {
+      margin: 1rem auto;
+      border-collapse: collapse;
+      width: 80%;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      padding: 1rem;
-      width: 220px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      transition: box-shadow 0.2s;
+      overflow: hidden;
+      color: #000;
     }
-    .video-item:hover {
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    
+    .video-table th,
+    .video-table td {
+      background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
     }
-    .video-thumb {
-      width: 200px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-    .video-title {
-      font-size: 16px;
-      font-weight: bold;
+    
+    .video-table th {
+      background: #f0f8ff;
       color: #333;
-      margin-top: 5px;
+      font-weight: bold;
+      padding: 12px;
+      border: 1px solid #ddd;
       text-align: center;
+      font-size: 14px;
+    }
+    
+    .video-table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.4;
+      vertical-align: middle;
+      word-wrap: break-word;
       word-break: break-all;
+      white-space: normal;
+    }
+    
+    .video-table tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .video-table tr:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .video-link {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    
+    .video-link:hover {
+      color: #ff6b6b;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -95,10 +153,9 @@
   <div class="like-form">
     <input type="text" id="like-title" placeholder="请输入你感兴趣的视频标题">
     <input type="number" id="like-pages" min="1" value="1" placeholder="查询页数">
-    <button id="like-btn">获取猜你喜欢</button>
-    <button id="like-refresh">刷新</button>
+    <button id="like-btn" class="top_button">获取猜你喜欢</button>
+    <button id="like-refresh" class="top_button">刷新</button>
   </div>
-  <div id="like-status" class="status-message"></div>
   <div id="like-list"></div>
   <script>
     document.getElementById('like-btn').onclick = function() {
@@ -108,8 +165,6 @@
         alert('请输入视频标题关键词');
         return;
       }
-      const statusDiv = document.getElementById('like-status');
-      statusDiv.textContent = '正在爬取，请稍候...';
       fetch('/start-like-spider', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -120,13 +175,14 @@
         if (data.success) {
           setTimeout(() => fetchLike(title), 4000); // 等待爬虫完成
         } else {
-          statusDiv.textContent = '爬虫启动失败：' + (data.message || '未知错误');
+          alert('爬虫启动失败：' + (data.message || '未知错误'));
         }
       })
       .catch(() => {
-        statusDiv.textContent = '请求失败';
+        alert('请求失败');
       });
     };
+    
     document.getElementById('like-refresh').onclick = function() {
       const title = document.getElementById('like-title').value.trim();
       if (!title) {
@@ -135,25 +191,54 @@
       }
       fetchLike(title);
     };
+    
     function fetchLike(title) {
       fetch(`/get-like?title=${encodeURIComponent(title)}`)
         .then(res => res.json())
         .then(data => renderLikeList(data))
         .catch(() => {
-          document.getElementById('like-status').textContent = '获取数据失败';
+          alert('获取数据失败');
         });
     }
+    
     function renderLikeList(data) {
       const listDiv = document.getElementById('like-list');
       if (!Array.isArray(data) || data.length === 0) {
         listDiv.innerHTML = '<p>暂无数据</p>';
         return;
       }
-      listDiv.innerHTML = data.map(item =>
-        `<div class='like-item'>
-          <a href='${item.url}' target='_blank'><strong>${item.title}</strong></a>
-        </div>`
-      ).join('');
+      
+      // 创建表格结构
+      let tableHTML = `
+        <table class="video-table">
+          <thead>
+            <tr>
+              <th>序号</th>
+              <th>视频标题</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+      
+      data.forEach((item, index) => {
+        tableHTML += `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${item.title}</td>
+            <td>
+              <a href="${item.url}" target="_blank" class="video-link">观看视频</a>
+            </td>
+          </tr>
+        `;
+      });
+      
+      tableHTML += `
+          </tbody>
+        </table>
+      `;
+      
+      listDiv.innerHTML = tableHTML;
     }
   </script>
 </body>
