@@ -182,10 +182,27 @@ def bilibili_search(keyword, page=1):
             title = item.get('title', '').replace('<em class="keyword">', '').replace('</em>', '')
             bvid = item.get('bvid')
             if title and bvid:
-                result.append({
+                # 获取更多详细信息
+                video_info = {
                     'title': title,
-                    'url': f'https://www.bilibili.com/video/{bvid}'
-                })
+                    'url': f'https://www.bilibili.com/video/{bvid}',
+                    'bvid': bvid,
+                    'aid': item.get('aid'),
+                    'cover': item.get('pic', ''),  # 视频封面
+                    'up_name': item.get('author', ''),  # UP主名称
+                    'play_count': item.get('play', 0),  # 播放量
+                    'danmu_count': item.get('video_review', 0),  # 弹幕数
+                    'duration': item.get('duration', ''),  # 时长
+                    'pubdate': item.get('pubdate', ''),  # 发布时间
+                    'description': item.get('description', ''),  # 视频描述
+                    'tag': item.get('tag', ''),  # 标签
+                    'favorites': item.get('favorites', 0),  # 收藏数
+                    'reply': item.get('reply', 0),  # 评论数
+                    'share': item.get('share', 0),  # 分享数
+                    'coin': item.get('coin', 0),  # 投币数
+                    'like': item.get('like', 0)  # 点赞数
+                }
+                result.append(video_info)
         return result
     except Exception as e:
         with open('like_data/last_error.html', 'w', encoding='utf-8') as f:
